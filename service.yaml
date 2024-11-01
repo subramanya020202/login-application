@@ -10,4 +10,5 @@ spec:
     - protocol: TCP
       port: 5000
       targetPort: 5000
-      nodePort: 30000  # Exposing the service on port 30000 of the Minikube node
+      nodePort: 30000
+

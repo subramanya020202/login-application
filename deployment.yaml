@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: login-app
-        image: login-app
-        imagePullPolicy: Never 
+        image: subbu25022002/login-app:latest  
         ports:
         - containerPort: 5000
 
